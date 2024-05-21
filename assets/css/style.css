@@ -1,0 +1,123 @@
+:root{
+  --bg1: #2d2a2b;
+  --bg2: rgb(44, 42, 42);
+  --body: rgb(95, 86, 86);
+  --brand: #f2b03b;
+  --white: rgb(235, 235, 235);
+  --p: rgb(161, 150, 150);
+}
+#banner {
+min-height: 100vh;
+
+background: linear-gradient(to right, hsla(0, 2%, 17%, 0.856), rgba(44, 42, 42, 0.315)), url("https://d2gg9evh47fn9z.cloudfront.net/1600px_COLOURBOX16167324.jpg");
+background-size: cover; }
+
+section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+/* ############################################## NAVBAR ########################################################## */
+.navbar .navbar-nav .nav-item .nav-link:hover {
+  font-weight: bold;
+  color: crimson;
+  text-shadow: 0 0 20px #ff0000, 0 0 40px #bc0000;
+  transition: all 0.4s ease;
+}
+
+.navbar .navbar-brand:hover {
+  color: crimson;
+  filter: drop-shadow(0 0 0.75rem crimson);
+  text-shadow: 0 0 20px #ff0000, 0 0 40px #bc0000;
+  transition: all 0.4s ease;
+}
+
+.navbar .navbar-brand {
+  color: rgb(175, 16, 203);
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+  font-size: 18px;
+}
+
+.nav-link.active {
+  font-weight: bold;
+  color: crimson;
+  text-shadow: 0 0 20px #ff0000, 0 0 40px #bc0000;
+}
+/* ################################################## END NAVBAR ######################################################## */
+
+.btn {
+padding:15xp 30px;
+transition: all 4.0s ease;
+font-weight: 800;
+border-radius: 0;
+}
+
+.btn-brand  {
+background-color: transparent;
+}
+
+.btn-brand:hover{
+background-color:rgb(213, 244, 7);
+color:rgb(238, 49, 16);
+border-color:rgb(210, 131, 236);
+
+}
+
+.icon-img-box {
+   width:40%
+}
+
+.card:hover {
+    background-color: rgb(3, 44, 44);
+}
+
+.card:hover .card-title,
+.card:hover .card-text,
+.card:hover .btn {
+    color: #fff;
+}
+
+.btn-outline-brand{
+    color:#891111;
+    background-color:rgb(153, 255, 127);
+    border-color:rgb(247, 251, 29);
+    
+
+}
+
+.btn-outlined-brand:hover {
+   background-color: rgb(21, 251, 228);
+}
+
+#cta {
+    min-height: 100vh;
+    
+    background: linear-gradient(to right, hsla(0, 2%, 17%, 0.856), rgba(44, 42, 42, 0.315)), url("https://d2gg9evh47fn9z.cloudfront.net/1600px_COLOURBOX16167324.jpg");
+    min-height:70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+/* ######### review ############ */
+#reviews{ 
+    background-color:var(--brand) ;
+    }
+    
+    .testimonials { 
+        background-color: var(--bg2);
+        padding: 30px;
+    }  
+    
+    .testimonials img{
+        width: 65px;
+        border-radius: 100px;
+        height: 65px;
+    }
+    
+    #Reviews a{
+        color: rgb(219, 13, 242);
+    }
+    /* ########### review end ############# */
+ 
